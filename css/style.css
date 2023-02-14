@@ -58,6 +58,13 @@ nav{
     
 }
 
+/* barra con search y botones de check */
+.form-check-label{
+    color: var(--verde);
+    
+}
+
+
 /* Contact */
 
 
