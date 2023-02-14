@@ -1,0 +1,62 @@
+:root{
+    --fuenteParrafos:font-family: 'Roboto Serif', serif;
+    --fuenteEncabezados:font-family: 'Poppins', sans-serif;
+    --primario:#3e2457;
+    --rosa:#B92764;
+    --verde:#82C62A;
+    --naranja: #f11706;
+    
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: var(--primario);
+
+}
+
+body{
+    font-family: var(--fuenteParrafos);
+    font-size: 2rem;
+}
+
+/* Encabezado principal con logo y menu */
+nav{
+    min-height: 10vh;    
+    position: sticky;
+}
+
+.nav-link{
+    font-size: 2rem;
+    padding:1.5rem;
+    color:var(--verde);
+   
+}
+
+
+
+/* footer */
+
+footer{
+    min-height: 5vh;
+    border:1px solid gray;
+    border-radius: 0.5rem;
+    width: auto;
+}
+
+footer img{
+    height: 7rem;
+    padding:1.5rem;
+}
+
+.footer_text{
+    color:var(--verde);
+    margin-top:2rem;
+    font-size: 2rem;
+}
+
+ 
+        
+    
