@@ -22,10 +22,10 @@
         flex-direction: column;
         flex-wrap:nowrap;
         height: auto;
+   }}
 
-
-    }
 /* footer  responsive tamaño celular tablet*/
+
 @media only screen and (min-width: 320px) and (max-width:765px) {
     footer {
         display:flex;
@@ -33,3 +33,4 @@
         flex-direction: column;
         height: auto;
     }
+}
