@@ -25,22 +25,18 @@
 
     <title>Amazing Events</title>
 
-</head>
-
-<body>
-
-    <!-- Encabezado, barra de navegacion con logo y menu -->
     <header>
-      
-        <nav class="navbar container-fluid d-flex justify-content-between flex-wrap">
-            <div class="logo">             
+        <!-- barra con logo y menues -->
+           <nav class="navbar container-fluid d-flex justify-content-between flex-wrap">
+
+                <div class="logo">             
                 <img src="../assets/Logo Amazing Events.png" alt="logo" width="auto" height=" 85rem">
                 </div>
                 <div class="menu">
                     
                 <ul class="nav bg-gradient fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link" href="../html/index.html">Home</a>
+                        <a class="nav-link" href="#">Past Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./upcomingEvents.html">Upcoming Events</a>
@@ -63,53 +59,102 @@
                 </ul>
                
                 </nav>
-                
-                <!-- Etiqueta bajo barra navegacion principal -->
                 <div class="under_logo">
                     <h1>Contact</h1>
                 </div>
-
-                <!-- Botones de paso de pagina -->
                 <div class ="container_button d-flex">
-                    <div class="container-fluid d">
-                     <a href="./details.html" type="button">
-                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>       
-                    
+                       <div class="container-fluid d">
+                        <a href="./stats.html" type="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>       
+                       
+                       </div>
+                       <div> 
+                          <a href="./upcomingEvents.html" type="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       </div>             
+                </div>
+                <nav class="navbar navbar-expand-lg w-100">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label mx-2" for="flexCheckDefault">
+                                          Category
+                                        </label>
+                                      </div>
+                                </li>
+                               <li>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label mx=2" for="flexCheckDefault">
+                                      Category
+                                    </label>
+                                  </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label mx-2" for="flexCheckDefault">
+                                          Category
+                                        </label>
+                                      </div>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label mx-2" for="flexCheckDefault">
+                                          Category
+                                        </label>
+                                      </div>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control search me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
                     </div>
-                    <div> 
-                       <a href="./stats.html" type="button">
-                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </div>             
-             </div>
+                </nav>
     </header>
+
     
     <!-- Parte principal del body -->
-    <main class="container_contact">
+    <main class="container container_contact">
         <!-- formulario de entrada de datos -->
-        <form class="container-fluid">
+        <form class="container">
         <lablel class="form-label">
                 Name:
           <div class="input_contact">
-            <input type="text" class="form-control" placeholder="Nombre" name="name">
+            <input type="text" class="form-control" id="form-control" placeholder="Nombre" name="name">
           </div>
         </lablel>
         
         <lablel class="form-label">
-                Email
+                Email:
           <div class="input_contact">
-            <input type="text" class="form-control" placeholder="Email" name="email">
+            <input type="text" class="form-control" id="form-control" placeholder="Email" name="email">
           </div>
         
         </lablel>
 
         <lablel class="form-label">
-                Mensaje
+                Mensaje:
             <div class="input_contact">
-                <textarea class="form-control text_area" type="textarea" placeholder="Mensaje" name="message" rows="10"></textarea>
+                <textarea class="form-control" type="textarea" id="form-control" placeholder="Mensaje" name="message" rows="10"></textarea>
           </div>
         
         </lablel>
+        <button type="button" class="btn btn-primary btn-lg">Submit</button>
         </form>
+        
     </main>
 
     <!-- Pie de pagina -->
