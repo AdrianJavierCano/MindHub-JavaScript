@@ -1,0 +1,183 @@
+:root{
+    --fuenteParrafos:font-family: 'Roboto Serif', serif;
+    --fuenteEncabezados:font-family: 'Poppins', sans-serif;
+    /* --primario:#2e2934; */
+    --primario:#333333;
+    --rosa:#B92764;
+    /* --verde:#82C62A; */
+    --verde:yellow;
+    --naranja: #f11706;
+    --tamaño-titulos: 2rem;
+    --tamaño-parrafos:1.4rem;    
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: var(--primario);
+
+}
+
+body{
+    font-family: var(--fuenteParrafos);
+    font-size: var(--tamaño-parrafos);
+    background-color: var(--primario);
+    min-height: 85vh;
+    height: auto;
+    
+}
+
+/* video fondo */
+
+
+/* Encabezado principal con logo y menu */
+nav{
+    min-height: 10vh;
+}
+
+
+.nav-link{
+    font-size: 1.5rem;
+    padding:1rem;
+    color:var(--verde);
+    font-style: var(--fuenteEncabezados);
+   
+}
+
+/* text */
+.under_logo h1{
+    display:flex;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: var(--naranja);
+    color: var(--verde);
+}
+
+/* button next prev */
+.container_button{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+
+/* barra con search y botones de check */
+.form-check-label{
+    color: var(--verde);
+    
+}
+
+/* Home */
+.card-img-top{
+    height: 20rem;
+}
+
+.card-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: var(--naranja);
+    color:var(--verde);
+    font-weight: 900;
+    font-size: 1rem;   
+}
+.card-title{
+    text-align: center;
+}
+
+.text-muted{
+    background-color: antiquewhite;
+
+}
+
+
+/* Contact */
+.form-label{
+    color:var(--verde);
+    font-weight: bold;
+}    
+
+.container_contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 40rem;
+}
+
+
+/* 
+ #form-control {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    width: 40rem;
+    
+} 
+
+.btn{
+    margin-left: 35rem;
+}
+
+/* Stats */
+caption{
+    font-size: var(--tamaño-titulos);
+    color:var(--naranja);
+}
+tr{
+    font-size: var(--tamaño-parrafos);
+    color:black;
+    background-color:steelblue
+}
+td{
+    font-size: var(--tamaño-parrafos);
+    color: black;
+}
+
+/* details */
+.container_card{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.card-title{
+    font-size: var(--tamaño-titulos);
+    font-weight: bold;
+    color:var(--naranja)}
+
+.card-text{
+    font-size: var(--tamaño-parrafos);
+    color:var(--verde);
+
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+    min-height: 3vh;
+    border:1px solid gray;
+    border-radius: 0.5rem;
+    margin-top: 5.5rem;
+}
+
+footer img{
+    height: 3.5rem;
+    padding:0.5rem 2rem;
+    
+}
+
+.footer_text{
+    color:var(--verde);
+    margin-top:1rem;
+    font-size: 1rem;
+}
+
+ 
+        
+    
