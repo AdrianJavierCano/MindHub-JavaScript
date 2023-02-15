@@ -1,9 +1,11 @@
 :root{
     --fuenteParrafos:font-family: 'Roboto Serif', serif;
     --fuenteEncabezados:font-family: 'Poppins', sans-serif;
-    --primario:#3e2457;
+    /* --primario:#2e2934; */
+    --primario:#333333;
     --rosa:#B92764;
-    --verde:#82C62A;
+    /* --verde:#82C62A; */
+    --verde:yellow;
     --naranja: #f11706;
     --tamaño-titulos: 2rem;
     --tamaño-parrafos:1.4rem;    
@@ -120,15 +122,16 @@ nav{
 /* Stats */
 caption{
     font-size: var(--tamaño-titulos);
-    color: var(--rosa);
+    color:var(--naranja);
 }
-th{
+tr{
     font-size: var(--tamaño-parrafos);
-    color:var(--verde)
+    color:black;
+    background-color:steelblue
 }
 td{
     font-size: var(--tamaño-parrafos);
-    color: antiquewhite;
+    color: black;
 }
 
 /* details */
