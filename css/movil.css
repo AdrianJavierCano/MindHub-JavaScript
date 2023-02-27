@@ -34,3 +34,11 @@
         height: auto;
     }
 }
+
+
+@media only screen and (min-width: 320px) and (max-width:765px) {
+    .container_cards {
+     display: flex;
+     flex-direction: column;
+    }
+}

@@ -84,6 +84,11 @@ nav{
     font-weight: 900;
     font-size: 1rem;   
 }
+
+.card{
+   min-height: 33rem;
+}
+
 .card-title{
     text-align: center;
 }
